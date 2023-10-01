@@ -1,0 +1,40 @@
+body {
+  background-color: #393E46;
+}
+
+h1 {
+  font-size: 5rem;
+  margin: 3rem 0 3.5rem 0;
+  font-family: 'VT323', monospace;
+  text-shadow: 5px 0 #232931;
+  color: #4ECCA3;
+}
+
+p {
+  font-size: 2rem;
+  font-family: 'VT323', monospace;
+  color: #4ECCA3;
+}
+
+/* custom classes */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+div div {
+  display: flex;
+  padding: 0 5rem 2rem 5rem;
+  border-radius: 5%;
+}
+
+.dice {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.dice-winner {
+  background-color: #232931;
+}
